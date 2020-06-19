@@ -1,0 +1,123 @@
+/* Transition
+-------------------------- */
+$--of-all-transition: all .3s cubic-bezier(.645, .045, .355, 1) !default;
+$--of-fade-transition: opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--of-fade-linear-transition: opacity 200ms linear !default;
+$--of-md-fade-transition: transform 300ms cubic-bezier(0.23, 1, 0.32, 1),
+opacity 300ms cubic-bezier(0.23, 1, 0.32, 1) !default;
+$--of-border-transition-base: border-color .2s cubic-bezier(.645, .045, .355, 1) !default;
+$--of-color-transition-base: color .2s cubic-bezier(.645, .045, .355, 1) !default;
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--of-color-primary: #466cb4 !default;
+/* 409EFF element-primary */
+/// color|1|Background Color|4
+$--of-color-white: #FFFFFF !default;
+/// color|1|Background Color|4
+$--of-color-black: #000000 !default;
+$--of-color-primary-light-1: mix($--of-color-white, $--of-color-primary, 10%) !default;
+/* 53a8ff */
+$--of-color-primary-light-2: mix($--of-color-white, $--of-color-primary, 20%) !default;
+/* 66b1ff */
+$--of-color-primary-light-3: mix($--of-color-white, $--of-color-primary, 30%) !default;
+/* 79bbff */
+$--of-color-primary-light-4: mix($--of-color-white, $--of-color-primary, 40%) !default;
+/* 8cc5ff */
+$--of-color-primary-light-5: mix($--of-color-white, $--of-color-primary, 50%) !default;
+/* a0cfff */
+$--of-color-primary-light-6: mix($--of-color-white, $--of-color-primary, 60%) !default;
+/* b3d8ff */
+$--of-color-primary-light-7: mix($--of-color-white, $--of-color-primary, 70%) !default;
+/* c6e2ff */
+$--of-color-primary-light-8: mix($--of-color-white, $--of-color-primary, 80%) !default;
+/* d9ecff */
+$--of-color-primary-light-9: mix($--of-color-white, $--of-color-primary, 90%) !default;
+/* ecf5ff */
+/// color|1|Functional Color|1
+$--of-color-success: #67C23A !default;
+/// color|1|Functional Color|1
+$--of-color-warning: #E6A23C !default;
+/// color|1|Functional Color|1
+$--of-color-danger: #F56C6C !default;
+/// color|1|Functional Color|1
+$--of-color-info: #909399 !default;
+/// color|1|Functional Color|1
+$--of-color-assist: #43c3c6 !default;
+
+$--of-color-success-light: mix($--of-color-white, $--of-color-success, 80%) !default;
+$--of-color-warning-light: mix($--of-color-white, $--of-color-warning, 80%) !default;
+$--of-color-danger-light: mix($--of-color-white, $--of-color-danger, 80%) !default;
+$--of-color-info-light: mix($--of-color-white, $--of-color-info, 80%) !default;
+
+$--of-color-success-lighter: mix($--of-color-white, $--of-color-success, 90%) !default;
+$--of-color-warning-lighter: mix($--of-color-white, $--of-color-warning, 90%) !default;
+$--of-color-danger-lighter: mix($--of-color-white, $--of-color-danger, 90%) !default;
+$--of-color-info-lighter: mix($--of-color-white, $--of-color-info, 90%) !default;
+/// color|1|Font Color|2
+$--of-color-text-primary: #303133 !default;
+/// color|1|Font Color|2
+$--of-color-text-regular: #606266 !default;
+/// color|1|Font Color|2
+$--of-color-text-secondary: #909399 !default;
+/// color|1|Font Color|2
+$--of-color-text-placeholder: #C0C4CC !default;
+/// color|1|Border Color|3
+$--of-border-color-base: #DCDFE6 !default;
+/// color|1|Border Color|3
+$--of-border-color-light: #E4E7ED !default;
+/// color|1|Border Color|3
+$--of-border-color-lighter: #EBEEF5 !default;
+/// color|1|Border Color|3
+$--of-border-color-extra-light: #F2F6FC !default;
+
+// Background
+/// color|1|Background Color|4
+$--of-background-color-base: #F5F7FA !default;
+/// color|1|Background Color|4
+$--of-background-color-gray: #f5f5f5 !default;
+
+
+/* Link
+-------------------------- */
+$--of-link-color: $--of-color-primary-light-2 !default;
+$--of-link-hover-color: $--of-color-primary !default;
+
+/* Border
+-------------------------- */
+$--of-border-width-base: 1px !default;
+$--of-border-style-base: solid !default;
+$--of-border-color-hover: $--of-color-text-placeholder !default;
+$--of-border-base: $--of-border-width-base $--of-border-style-base $--of-border-color-base !default;
+/// borderRadius|1|Radius|0
+$--of-border-radius-base: 4px !default;
+/// borderRadius|1|Radius|0
+$--of-border-radius-small: 2px !default;
+/// borderRadius|1|Radius|0
+$--of-border-radius-circle: 100% !default;
+/// borderRadius|1|Radius|0
+$--of-border-radius-zero: 0 !default;
+
+// Box-shadow
+/// boxShadow|1|Shadow|1
+$--of-box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .04) !default;
+// boxShadow|1|Shadow|1
+$--of-box-shadow-dark: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .12) !default;
+/// boxShadow|1|Shadow|1
+$--of-box-shadow-light: 0 2px 12px 0 rgba(0, 0, 0, 0.1) !default;
+
+// Site-base
+/// theme
+$--of-color-theme: $--of-color-primary !default;
+$--of-color-theme-light-1: mix($--of-color-white, $--of-color-theme, 10%) !default;
+$--of-color-theme-light-2: mix($--of-color-white, $--of-color-theme, 20%) !default;
+$--of-color-theme-light-3: mix($--of-color-white, $--of-color-theme, 30%) !default;
+$--of-color-theme-light-4: mix($--of-color-white, $--of-color-theme, 40%) !default;
+$--of-color-theme-light-5: mix($--of-color-white, $--of-color-theme, 50%) !default;
+$--of-color-theme-light-6: mix($--of-color-white, $--of-color-theme, 60%) !default;
+$--of-color-theme-light-7: mix($--of-color-white, $--of-color-theme, 70%) !default;
+$--of-color-theme-light-8: mix($--of-color-white, $--of-color-theme, 80%) !default;
+$--of-color-theme-light-9: mix($--of-color-white, $--of-color-theme, 90%) !default;

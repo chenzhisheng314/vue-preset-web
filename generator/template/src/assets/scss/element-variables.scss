@@ -1,0 +1,72 @@
+/* Transition
+-------------------------- */
+$--all-transition: $--of-all-transition !default;
+$--fade-transition: $--of-fade-transition !default;
+$--fade-linear-transition: $--of-fade-linear-transition !default;
+$--md-fade-transition: $--of-md-fade-transition !default;
+$--border-transition-base: $--of-border-transition-base !default;
+$--color-transition-base: $--of-color-transition-base !default;
+
+/* Color
+-------------------------- */
+/// color|1|Brand Color|0
+$--color-primary: $--of-color-primary !default;
+/// color|1|Background Color|4
+$--color-white: $--of-color-white !default;
+/// color|1|Background Color|4
+$--color-black: $--of-color-black !default;
+/// color|1|Functional Color|1
+$--color-success: $--of-color-success !default;
+/// color|1|Functional Color|1
+$--color-warning: $--of-color-warning !default;
+/// color|1|Functional Color|1
+$--color-danger: $--of-color-danger !default;
+/// color|1|Functional Color|1
+$--color-info: $--of-color-info !default;
+
+/// color|1|Font Color|2
+$--color-text-primary: $--of-color-text-primary !default;
+/// color|1|Font Color|2
+$--color-text-regular: $--of-color-text-regular !default;
+/// color|1|Font Color|2
+$--color-text-secondary: $--of-color-text-secondary !default;
+/// color|1|Font Color|2
+$--color-text-placeholder: $--of-color-text-placeholder !default;
+/// color|1|Border Color|3
+$--border-color-base: $--of-border-color-base !default;
+/// color|1|Border Color|3
+$--border-color-light: $--of-border-color-light !default;
+/// color|1|Border Color|3
+$--border-color-lighter: $--of-border-color-lighter !default;
+/// color|1|Border Color|3
+$--border-color-extra-light: $--of-border-color-extra-light !default;
+
+// Background
+/// color|1|Background Color|4
+$--background-color-base: $--of-background-color-base !default;
+
+/* Border
+-------------------------- */
+$--border-width-base: $--of-border-width-base !default;
+$--border-style-base: $--of-border-style-base !default;
+/// borderRadius|1|Radius|0
+$--border-radius-base: $--of-border-radius-base !default;
+/// borderRadius|1|Radius|0
+$--border-radius-small: $--of-border-radius-small !default;
+/// borderRadius|1|Radius|0
+$--border-radius-circle: $--of-border-radius-circle !default;
+/// borderRadius|1|Radius|0
+$--border-radius-zero: $--of-border-radius-zero !default;
+
+// Box-shadow
+/// boxShadow|1|Shadow|1
+$--box-shadow-base: $--of-box-shadow-base !default;
+// boxShadow|1|Shadow|1
+$--box-shadow-dark: $--of-box-shadow-dark !default;
+/// boxShadow|1|Shadow|1
+$--box-shadow-light: $--of-box-shadow-light !default;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
