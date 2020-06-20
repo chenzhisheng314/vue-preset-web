@@ -128,10 +128,11 @@ export default {
       vfCodeTimeout: 0
     }
   },
-  watch: {},
   computed: {
     ...mapGetters(['getLoginRedirectUrl'])
   },
+  watch: {},
+  mounted() {},
   methods: {
     ...mapMutations({
       setLoginRedirectUrl: 'UPDATE_LOGIN_REDIRECT_URL'
@@ -199,8 +200,7 @@ export default {
       }
       return str
     }
-  },
-  mounted() {}
+  }
 }
 </script>
 
